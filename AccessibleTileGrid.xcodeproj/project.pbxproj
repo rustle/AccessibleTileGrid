@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91BFE2F0163E252C00B7FF67 /* Tiles.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BFE2EF163E252C00B7FF67 /* Tiles.plist */; };
+		91BFE2FD163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BFE2FC163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.m */; };
+		91BFE300163E318C00B7FF67 /* Words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91BFE2FF163E318C00B7FF67 /* Words.plist */; };
+		91BFE303163E353000B7FF67 /* RSTLAccessibleCurrentWordTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 91BFE302163E352F00B7FF67 /* RSTLAccessibleCurrentWordTile.m */; };
+		91BFE309163E379800B7FF67 /* Readme.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 91BFE308163E379800B7FF67 /* Readme.rtf */; };
+		91FC82D8163E1B5D00703266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC82D7163E1B5D00703266 /* UIKit.framework */; };
+		91FC82DA163E1B5D00703266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC82D9163E1B5D00703266 /* Foundation.framework */; };
+		91FC82DC163E1B5D00703266 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC82DB163E1B5D00703266 /* CoreGraphics.framework */; };
+		91FC82DE163E1B5D00703266 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC82DD163E1B5D00703266 /* GLKit.framework */; };
+		91FC82E0163E1B5D00703266 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FC82DF163E1B5D00703266 /* OpenGLES.framework */; };
+		91FC82E6163E1B5D00703266 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82E4163E1B5D00703266 /* InfoPlist.strings */; };
+		91FC82E8163E1B5D00703266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC82E7163E1B5D00703266 /* main.m */; };
+		91FC82EC163E1B5D00703266 /* RSTLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC82EB163E1B5D00703266 /* RSTLAppDelegate.m */; };
+		91FC82EE163E1B5D00703266 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82ED163E1B5D00703266 /* Default.png */; };
+		91FC82F0163E1B5D00703266 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82EF163E1B5D00703266 /* Default@2x.png */; };
+		91FC82F2163E1B5D00703266 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82F1163E1B5D00703266 /* Default-568h@2x.png */; };
+		91FC82F7163E1B5D00703266 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82F6163E1B5D00703266 /* Shader.fsh */; };
+		91FC82F9163E1B5D00703266 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 91FC82F8163E1B5D00703266 /* Shader.vsh */; };
+		91FC82FC163E1B5D00703266 /* RSTLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC82FB163E1B5D00703266 /* RSTLMainViewController.m */; };
+		91FC8304163E1BC700703266 /* RSTLContainerGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC8303163E1BC700703266 /* RSTLContainerGLKView.m */; };
+		91FC8307163E1C2C00703266 /* ASAccessibilityElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC8306163E1C2C00703266 /* ASAccessibilityElement.m */; };
+		91FC830A163E1C4200703266 /* RSTLAccessibleTileGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC8309163E1C4200703266 /* RSTLAccessibleTileGrid.m */; };
+		91FC830D163E1CA900703266 /* RSTLAccessibleTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC830C163E1CA900703266 /* RSTLAccessibleTile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91BFE2EF163E252C00B7FF67 /* Tiles.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Tiles.plist; sourceTree = "<group>"; };
+		91BFE2FB163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTLAccessibleCurrentWord.h; sourceTree = "<group>"; };
+		91BFE2FC163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTLAccessibleCurrentWord.m; sourceTree = "<group>"; };
+		91BFE2FF163E318C00B7FF67 /* Words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Words.plist; sourceTree = "<group>"; };
+		91BFE301163E352F00B7FF67 /* RSTLAccessibleCurrentWordTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTLAccessibleCurrentWordTile.h; sourceTree = "<group>"; };
+		91BFE302163E352F00B7FF67 /* RSTLAccessibleCurrentWordTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTLAccessibleCurrentWordTile.m; sourceTree = "<group>"; };
+		91BFE308163E379800B7FF67 /* Readme.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Readme.rtf; sourceTree = SOURCE_ROOT; };
+		91FC82D3163E1B5D00703266 /* AccessibleTileGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccessibleTileGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FC82D7163E1B5D00703266 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91FC82D9163E1B5D00703266 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91FC82DB163E1B5D00703266 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91FC82DD163E1B5D00703266 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		91FC82DF163E1B5D00703266 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		91FC82E3163E1B5D00703266 /* AccessibleTileGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AccessibleTileGrid-Info.plist"; sourceTree = "<group>"; };
+		91FC82E5163E1B5D00703266 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91FC82E7163E1B5D00703266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91FC82E9163E1B5D00703266 /* AccessibleTileGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AccessibleTileGrid-Prefix.pch"; sourceTree = "<group>"; };
+		91FC82EA163E1B5D00703266 /* RSTLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTLAppDelegate.h; sourceTree = "<group>"; };
+		91FC82EB163E1B5D00703266 /* RSTLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTLAppDelegate.m; sourceTree = "<group>"; };
+		91FC82ED163E1B5D00703266 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		91FC82EF163E1B5D00703266 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		91FC82F1163E1B5D00703266 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		91FC82F6163E1B5D00703266 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		91FC82F8163E1B5D00703266 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		91FC82FA163E1B5D00703266 /* RSTLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTLMainViewController.h; sourceTree = "<group>"; };
+		91FC82FB163E1B5D00703266 /* RSTLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTLMainViewController.m; sourceTree = "<group>"; };
+		91FC8302163E1BC700703266 /* RSTLContainerGLKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTLContainerGLKView.h; sourceTree = "<group>"; };
+		91FC8303163E1BC700703266 /* RSTLContainerGLKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTLContainerGLKView.m; sourceTree = "<group>"; };
+		91FC8305163E1C2C00703266 /* ASAccessibilityElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAccessibilityElement.h; sourceTree = "<group>"; };
+		91FC8306163E1C2C00703266 /* ASAccessibilityElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAccessibilityElement.m; sourceTree = "<group>"; };
+		91FC8308163E1C4200703266 /* RSTLAccessibleTileGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTLAccessibleTileGrid.h; sourceTree = "<group>"; };
+		91FC8309163E1C4200703266 /* RSTLAccessibleTileGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTLAccessibleTileGrid.m; sourceTree = "<group>"; };
+		91FC830B163E1CA900703266 /* RSTLAccessibleTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTLAccessibleTile.h; sourceTree = "<group>"; };
+		91FC830C163E1CA900703266 /* RSTLAccessibleTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTLAccessibleTile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FC82D0163E1B5D00703266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FC82D8163E1B5D00703266 /* UIKit.framework in Frameworks */,
+				91FC82DA163E1B5D00703266 /* Foundation.framework in Frameworks */,
+				91FC82DC163E1B5D00703266 /* CoreGraphics.framework in Frameworks */,
+				91FC82DE163E1B5D00703266 /* GLKit.framework in Frameworks */,
+				91FC82E0163E1B5D00703266 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FC82C8163E1B5D00703266 = {
+			isa = PBXGroup;
+			children = (
+				91BFE308163E379800B7FF67 /* Readme.rtf */,
+				91FC82E1163E1B5D00703266 /* AccessibleTileGrid */,
+				91FC82D6163E1B5D00703266 /* Frameworks */,
+				91FC82D4163E1B5D00703266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FC82D4163E1B5D00703266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FC82D3163E1B5D00703266 /* AccessibleTileGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FC82D6163E1B5D00703266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FC82D7163E1B5D00703266 /* UIKit.framework */,
+				91FC82D9163E1B5D00703266 /* Foundation.framework */,
+				91FC82DB163E1B5D00703266 /* CoreGraphics.framework */,
+				91FC82DD163E1B5D00703266 /* GLKit.framework */,
+				91FC82DF163E1B5D00703266 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91FC82E1163E1B5D00703266 /* AccessibleTileGrid */ = {
+			isa = PBXGroup;
+			children = (
+				91FC82EA163E1B5D00703266 /* RSTLAppDelegate.h */,
+				91FC82EB163E1B5D00703266 /* RSTLAppDelegate.m */,
+				91FC82FA163E1B5D00703266 /* RSTLMainViewController.h */,
+				91FC82FB163E1B5D00703266 /* RSTLMainViewController.m */,
+				91FC8302163E1BC700703266 /* RSTLContainerGLKView.h */,
+				91FC8303163E1BC700703266 /* RSTLContainerGLKView.m */,
+				91FC8305163E1C2C00703266 /* ASAccessibilityElement.h */,
+				91FC8306163E1C2C00703266 /* ASAccessibilityElement.m */,
+				91FC8308163E1C4200703266 /* RSTLAccessibleTileGrid.h */,
+				91FC8309163E1C4200703266 /* RSTLAccessibleTileGrid.m */,
+				91FC830B163E1CA900703266 /* RSTLAccessibleTile.h */,
+				91FC830C163E1CA900703266 /* RSTLAccessibleTile.m */,
+				91BFE2FB163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.h */,
+				91BFE2FC163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.m */,
+				91BFE301163E352F00B7FF67 /* RSTLAccessibleCurrentWordTile.h */,
+				91BFE302163E352F00B7FF67 /* RSTLAccessibleCurrentWordTile.m */,
+				91BFE2EF163E252C00B7FF67 /* Tiles.plist */,
+				91BFE2FF163E318C00B7FF67 /* Words.plist */,
+				91FC82F6163E1B5D00703266 /* Shader.fsh */,
+				91FC82F8163E1B5D00703266 /* Shader.vsh */,
+				91FC82E2163E1B5D00703266 /* Supporting Files */,
+			);
+			path = AccessibleTileGrid;
+			sourceTree = "<group>";
+		};
+		91FC82E2163E1B5D00703266 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FC82E3163E1B5D00703266 /* AccessibleTileGrid-Info.plist */,
+				91FC82E4163E1B5D00703266 /* InfoPlist.strings */,
+				91FC82E7163E1B5D00703266 /* main.m */,
+				91FC82E9163E1B5D00703266 /* AccessibleTileGrid-Prefix.pch */,
+				91FC82ED163E1B5D00703266 /* Default.png */,
+				91FC82EF163E1B5D00703266 /* Default@2x.png */,
+				91FC82F1163E1B5D00703266 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FC82D2163E1B5D00703266 /* AccessibleTileGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FC82FF163E1B5D00703266 /* Build configuration list for PBXNativeTarget "AccessibleTileGrid" */;
+			buildPhases = (
+				91FC82CF163E1B5D00703266 /* Sources */,
+				91FC82D0163E1B5D00703266 /* Frameworks */,
+				91FC82D1163E1B5D00703266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccessibleTileGrid;
+			productName = AccessibleTileGrid;
+			productReference = 91FC82D3163E1B5D00703266 /* AccessibleTileGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FC82CA163E1B5D00703266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RSTL;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Doug Russell";
+			};
+			buildConfigurationList = 91FC82CD163E1B5D00703266 /* Build configuration list for PBXProject "AccessibleTileGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91FC82C8163E1B5D00703266;
+			productRefGroup = 91FC82D4163E1B5D00703266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FC82D2163E1B5D00703266 /* AccessibleTileGrid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FC82D1163E1B5D00703266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FC82E6163E1B5D00703266 /* InfoPlist.strings in Resources */,
+				91FC82EE163E1B5D00703266 /* Default.png in Resources */,
+				91FC82F0163E1B5D00703266 /* Default@2x.png in Resources */,
+				91FC82F2163E1B5D00703266 /* Default-568h@2x.png in Resources */,
+				91FC82F7163E1B5D00703266 /* Shader.fsh in Resources */,
+				91FC82F9163E1B5D00703266 /* Shader.vsh in Resources */,
+				91BFE2F0163E252C00B7FF67 /* Tiles.plist in Resources */,
+				91BFE300163E318C00B7FF67 /* Words.plist in Resources */,
+				91BFE309163E379800B7FF67 /* Readme.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FC82CF163E1B5D00703266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FC82E8163E1B5D00703266 /* main.m in Sources */,
+				91FC82EC163E1B5D00703266 /* RSTLAppDelegate.m in Sources */,
+				91FC82FC163E1B5D00703266 /* RSTLMainViewController.m in Sources */,
+				91FC8304163E1BC700703266 /* RSTLContainerGLKView.m in Sources */,
+				91FC8307163E1C2C00703266 /* ASAccessibilityElement.m in Sources */,
+				91FC830A163E1C4200703266 /* RSTLAccessibleTileGrid.m in Sources */,
+				91FC830D163E1CA900703266 /* RSTLAccessibleTile.m in Sources */,
+				91BFE2FD163E2F8300B7FF67 /* RSTLAccessibleCurrentWord.m in Sources */,
+				91BFE303163E353000B7FF67 /* RSTLAccessibleCurrentWordTile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91FC82E4163E1B5D00703266 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FC82E5163E1B5D00703266 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FC82FD163E1B5D00703266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		91FC82FE163E1B5D00703266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FC8300163E1B5D00703266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccessibleTileGrid/AccessibleTileGrid-Prefix.pch";
+				INFOPLIST_FILE = "AccessibleTileGrid/AccessibleTileGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91FC8301163E1B5D00703266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccessibleTileGrid/AccessibleTileGrid-Prefix.pch";
+				INFOPLIST_FILE = "AccessibleTileGrid/AccessibleTileGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FC82CD163E1B5D00703266 /* Build configuration list for PBXProject "AccessibleTileGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FC82FD163E1B5D00703266 /* Debug */,
+				91FC82FE163E1B5D00703266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FC82FF163E1B5D00703266 /* Build configuration list for PBXNativeTarget "AccessibleTileGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FC8300163E1B5D00703266 /* Debug */,
+				91FC8301163E1B5D00703266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FC82CA163E1B5D00703266 /* Project object */;
+}
